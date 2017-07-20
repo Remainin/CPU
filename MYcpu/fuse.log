@@ -1,0 +1,33 @@
+Running: D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/ISE/MYcpu/MYcpu_te_isim_beh.exe -prj D:/ISE/MYcpu/MYcpu_te_beh.prj work.MYcpu_te 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/ISE/MYcpu/write_back.vhd" into library work
+Parsing VHDL file "D:/ISE/MYcpu/visit_control.vhd" into library work
+Parsing VHDL file "D:/ISE/MYcpu/storge.vhd" into library work
+Parsing VHDL file "D:/ISE/MYcpu/fetch.vhd" into library work
+Parsing VHDL file "D:/ISE/MYcpu/clock_control.vhd" into library work
+Parsing VHDL file "D:/ISE/MYcpu/alu.vhd" into library work
+Parsing VHDL file "D:/ISE/MYcpu/MYcpu.vhd" into library work
+Parsing VHDL file "D:/ISE/MYcpu/MYcpu_te.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture clock of entity clock_control [clock_control_default]
+Compiling architecture f of entity fetch [fetch_default]
+Compiling architecture count of entity alu [alu_default]
+Compiling architecture s of entity storge [storge_default]
+Compiling architecture w of entity write_back [write_back_default]
+Compiling architecture v of entity visit_control [visit_control_default]
+Compiling architecture behavioral of entity MYcpu [mycpu_default]
+Compiling architecture behavior of entity mycpu_te
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable D:/ISE/MYcpu/MYcpu_te_isim_beh.exe
+Fuse Memory Usage: 33724 KB
+Fuse CPU Usage: 733 ms

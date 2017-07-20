@@ -1,0 +1,77 @@
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf -ucf MYcpu.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf -ucf MYcpu.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf -ucf MYcpu.ucf 
+bitgen -intstyle ise -f MYcpu.ut MYcpu.ncd 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf -ucf MYcpu.ucf 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MYcpu.ucf -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf -ucf MYcpu.ucf 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf 
+bitgen -intstyle ise -f MYcpu.ut MYcpu.ncd 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf 
+xst -intstyle ise -ifn "D:/ISE/MYcpu/MYcpu.xst" -ofn "D:/ISE/MYcpu/MYcpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 MYcpu.ngc MYcpu.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o MYcpu_map.ncd MYcpu.ngd MYcpu.pcf 
+par -w -intstyle ise -ol high -t 1 MYcpu_map.ncd MYcpu.ncd MYcpu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf 
+bitgen -intstyle ise -f MYcpu.ut MYcpu.ncd 

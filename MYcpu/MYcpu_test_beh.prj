@@ -1,0 +1,8 @@
+vhdl work "write_back.vhd"
+vhdl work "visit_control.vhd"
+vhdl work "storge.vhd"
+vhdl work "fetch.vhd"
+vhdl work "clock_control.vhd"
+vhdl work "alu.vhd"
+vhdl work "my_cpu.vhd"
+vhdl work "MYcpu_test.vhd"

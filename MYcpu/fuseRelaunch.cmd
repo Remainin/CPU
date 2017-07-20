@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/ISE/MYcpu/MYcpu_te_isim_beh.exe" -prj "D:/ISE/MYcpu/MYcpu_te_beh.prj" "work.MYcpu_te" 

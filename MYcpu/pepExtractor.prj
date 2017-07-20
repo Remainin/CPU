@@ -1,0 +1,7 @@
+work	"alu.vhd"
+work	"clock_control.vhd"
+work	"fetch.vhd"
+work	"my_cpu.vhd"
+work	"storge.vhd"
+work	"visit_control.vhd"
+work	"write_back.vhd"

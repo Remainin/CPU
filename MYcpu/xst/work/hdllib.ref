@@ -1,0 +1,15 @@
+AR visit_control v D:/ISE/MYcpu/visit_control.vhd sub00/vhpl11 1469423709
+AR fetch f D:/ISE/MYcpu/fetch.vhd sub00/vhpl03 1469423701
+AR alu count D:/ISE/MYcpu/alu.vhd sub00/vhpl05 1469423703
+EN alu_test NULL D:/ISE/MYcpu/alu_test.vhd sub00/vhpl14 1469423573
+AR storge s D:/ISE/MYcpu/storge.vhd sub00/vhpl07 1469423705
+EN storge NULL D:/ISE/MYcpu/storge.vhd sub00/vhpl06 1469423704
+EN visit_control NULL D:/ISE/MYcpu/visit_control.vhd sub00/vhpl10 1469423708
+AR mycpu behavioral D:/ISE/MYcpu/MYcpu.vhd sub00/vhpl13 1469423711
+EN mycpu NULL D:/ISE/MYcpu/MYcpu.vhd sub00/vhpl12 1469423710
+EN clock_control NULL D:/ISE/MYcpu/clock_control.vhd sub00/vhpl00 1469423698
+AR write_back w D:/ISE/MYcpu/write_back.vhd sub00/vhpl09 1469423707
+EN fetch NULL D:/ISE/MYcpu/fetch.vhd sub00/vhpl02 1469423700
+EN write_back NULL D:/ISE/MYcpu/write_back.vhd sub00/vhpl08 1469423706
+AR clock_control clock D:/ISE/MYcpu/clock_control.vhd sub00/vhpl01 1469423699
+EN alu NULL D:/ISE/MYcpu/alu.vhd sub00/vhpl04 1469423702

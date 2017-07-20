@@ -1,0 +1,43 @@
+V3 33
+FL D:/ISE/MYcpu/alu.vhd 2016/07/25.13:12:48 O.87xd
+EN work/alu 1469423702 FL D:/ISE/MYcpu/alu.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/std_logic_arith 1325952873 PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/alu/count 1469423703 \
+      FL D:/ISE/MYcpu/alu.vhd EN work/alu 1469423702
+FL D:/ISE/MYcpu/alu_test.vhd 2016/07/24.00:10:52 O.87xd
+EN work/ALu_test 0 FL D:/ISE/MYcpu/alu_test.vhd PB ieee/std_logic_1164 1325952872
+AR work/ALu_test/behavior 0 \
+      FL D:/ISE/MYcpu/alu_test.vhd EN work/ALu_test 0 CP alu
+FL D:/ISE/MYcpu/clock_control.vhd 2016/07/25.13:12:48 O.87xd
+EN work/clock_control 1469423698 FL D:/ISE/MYcpu/clock_control.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/clock_control/clock 1469423699 \
+      FL D:/ISE/MYcpu/clock_control.vhd EN work/clock_control 1469423698
+FL D:/ISE/MYcpu/fetch.vhd 2016/07/25.13:12:48 O.87xd
+EN work/fetch 1469423700 FL D:/ISE/MYcpu/fetch.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/std_logic_arith 1325952873 PB ieee/STD_LOGIC_UNSIGNED 1325952875 \
+      LB UNISIM
+AR work/fetch/f 1469423701 FL D:/ISE/MYcpu/fetch.vhd EN work/fetch 1469423700
+FL D:/ISE/MYcpu/MYcpu.vhd 2016/07/25.13:12:49 O.87xd
+EN work/MYcpu 1469423710 FL D:/ISE/MYcpu/MYcpu.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/std_logic_arith 1325952873 PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/MYcpu/Behavioral 1469423711 \
+      FL D:/ISE/MYcpu/MYcpu.vhd EN work/MYcpu 1469423710 CP clock_control CP fetch \
+      CP alu CP storge CP write_back CP visit_control
+FL D:/ISE/MYcpu/my_cpu.vhd 2016/07/25.12:58:45 O.87xd
+FL D:/ISE/MYcpu/MY_cpu2.vhd 2016/07/25.12:35:17 O.87xd
+FL D:/ISE/MYcpu/storge.vhd 2016/07/24.21:21:29 O.87xd
+EN work/storge 1469423704 FL D:/ISE/MYcpu/storge.vhd PB ieee/std_logic_1164 1325952872
+AR work/storge/s 1469423705 \
+      FL D:/ISE/MYcpu/storge.vhd EN work/storge 1469423704
+FL D:/ISE/MYcpu/visit_control.vhd 2016/07/24.20:42:12 O.87xd
+EN work/visit_control 1469423708 FL D:/ISE/MYcpu/visit_control.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/visit_control/v 1469423709 \
+      FL D:/ISE/MYcpu/visit_control.vhd EN work/visit_control 1469423708
+FL D:/ISE/MYcpu/write_back.vhd 2016/07/24.12:21:34 O.87xd
+EN work/write_back 1469423706 FL D:/ISE/MYcpu/write_back.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/write_back/w 1469423707 \
+      FL D:/ISE/MYcpu/write_back.vhd EN work/write_back 1469423706

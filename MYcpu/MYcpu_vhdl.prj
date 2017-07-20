@@ -1,0 +1,7 @@
+vhdl work "D:\ISE\MYcpu\write_back.vhd"
+vhdl work "D:\ISE\MYcpu\visit_control.vhd"
+vhdl work "D:\ISE\MYcpu\storge.vhd"
+vhdl work "D:\ISE\MYcpu\fetch.vhd"
+vhdl work "D:\ISE\MYcpu\clock_control.vhd"
+vhdl work "D:\ISE\MYcpu\alu.vhd"
+vhdl work "D:\ISE\MYcpu\MYcpu.vhd"

@@ -1,0 +1,8 @@
+vhdl isim_temp "write_back.vhd"
+vhdl isim_temp "visit_control.vhd"
+vhdl isim_temp "storge.vhd"
+vhdl isim_temp "fetch.vhd"
+vhdl isim_temp "clock_control.vhd"
+vhdl isim_temp "alu.vhd"
+vhdl isim_temp "my_cpu.vhd"
+vhdl isim_temp "MYcpu_test.vhd"

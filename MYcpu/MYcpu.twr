@@ -1,0 +1,269 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n 3
+-fastpaths -xml MYcpu.twx MYcpu.ncd -o MYcpu.twr MYcpu.pcf
+
+Design file:              MYcpu.ncd
+Physical constraint file: MYcpu.pcf
+Device,package,speed:     xc3s500e,pq208,-4 (PRODUCTION 1.27 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock rst
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+DBUS<0>     |   -2.704(R)|    7.044(R)|IR_read           |   0.000|
+            |   -3.282(F)|    9.458(F)|IR_read           |   0.000|
+DBUS<1>     |    0.378(R)|    4.550(R)|IR_read           |   0.000|
+            |   -3.887(F)|    9.423(F)|IR_read           |   0.000|
+DBUS<2>     |   -1.521(R)|    5.985(R)|IR_read           |   0.000|
+            |   -4.174(F)|    9.132(F)|IR_read           |   0.000|
+DBUS<3>     |   -2.252(R)|    6.569(R)|IR_read           |   0.000|
+            |   -4.641(F)|    9.454(F)|IR_read           |   0.000|
+DBUS<4>     |   -2.071(R)|    6.486(R)|IR_read           |   0.000|
+            |   -4.582(F)|    9.634(F)|IR_read           |   0.000|
+DBUS<5>     |   -2.294(R)|    6.788(R)|IR_read           |   0.000|
+            |   -3.774(F)|    9.647(F)|IR_read           |   0.000|
+DBUS<6>     |   -2.320(R)|    6.706(R)|IR_read           |   0.000|
+            |   -5.173(F)|    9.686(F)|IR_read           |   0.000|
+DBUS<7>     |   -3.541(R)|    7.613(R)|IR_read           |   0.000|
+            |   -2.408(F)|    8.896(F)|IR_read           |   0.000|
+DBUS<8>     |   -3.229(F)|    9.228(F)|IR_read           |   0.000|
+DBUS<9>     |   -3.992(F)|    8.243(F)|IR_read           |   0.000|
+DBUS<10>    |   -4.766(F)|    8.813(F)|IR_read           |   0.000|
+DBUS<11>    |   -2.636(F)|    9.755(F)|IR_read           |   0.000|
+DBUS<12>    |   -4.773(F)|    9.269(F)|IR_read           |   0.000|
+DBUS<13>    |   -3.272(F)|    9.445(F)|IR_read           |   0.000|
+DBUS<14>    |   -4.632(F)|    9.194(F)|IR_read           |   0.000|
+DBUS<15>    |   -3.381(F)|    9.140(F)|IR_read           |   0.000|
+IODB<0>     |   -3.616(R)|    7.774(R)|IR_read           |   0.000|
+IODB<1>     |   -3.881(R)|    7.957(R)|IR_read           |   0.000|
+IODB<2>     |   -3.974(R)|    7.947(R)|IR_read           |   0.000|
+IODB<3>     |   -2.786(R)|    6.996(R)|IR_read           |   0.000|
+IODB<4>     |   -2.579(R)|    6.893(R)|IR_read           |   0.000|
+IODB<5>     |   -3.888(R)|    8.063(R)|IR_read           |   0.000|
+IODB<6>     |   -3.737(R)|    7.839(R)|IR_read           |   0.000|
+IODB<7>     |   -3.801(R)|    7.821(R)|IR_read           |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+IODB<0>     |   16.531(R)|clk_BUFGP         |   0.000|
+IODB<1>     |   15.356(R)|clk_BUFGP         |   0.000|
+IODB<2>     |   16.193(R)|clk_BUFGP         |   0.000|
+IODB<3>     |   15.248(R)|clk_BUFGP         |   0.000|
+IODB<4>     |   14.740(R)|clk_BUFGP         |   0.000|
+IODB<5>     |   15.606(R)|clk_BUFGP         |   0.000|
+IODB<6>     |   14.907(R)|clk_BUFGP         |   0.000|
+IODB<7>     |   15.810(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock rst to Pad
+-------------+------------+-------------------------+--------+
+             | clk (edge) |                         | Clock  |
+Destination  |   to PAD   |Internal Clock(s)        | Phase  |
+-------------+------------+-------------------------+--------+
+ABUS<0>      |   15.363(F)|U6/ABUS_or0000           |   0.000|
+ABUS<1>      |   15.448(F)|U6/ABUS_or0000           |   0.000|
+ABUS<2>      |   15.494(F)|U6/ABUS_or0000           |   0.000|
+ABUS<3>      |   15.395(F)|U6/ABUS_or0000           |   0.000|
+ABUS<4>      |   16.152(F)|U6/ABUS_or0000           |   0.000|
+ABUS<5>      |   15.404(F)|U6/ABUS_or0000           |   0.000|
+ABUS<6>      |   15.387(F)|U6/ABUS_or0000           |   0.000|
+ABUS<7>      |   15.473(F)|U6/ABUS_or0000           |   0.000|
+ABUS<8>      |   15.449(F)|U6/ABUS_or0000           |   0.000|
+ABUS<9>      |   15.400(F)|U6/ABUS_or0000           |   0.000|
+ABUS<10>     |   15.518(F)|U6/ABUS_or0000           |   0.000|
+ABUS<11>     |   15.404(F)|U6/ABUS_or0000           |   0.000|
+ABUS<12>     |   15.390(F)|U6/ABUS_or0000           |   0.000|
+ABUS<13>     |   15.457(F)|U6/ABUS_or0000           |   0.000|
+ABUS<14>     |   15.269(F)|U6/ABUS_or0000           |   0.000|
+ABUS<15>     |   15.525(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<0>  |   15.448(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<1>  |   15.269(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<2>  |   15.494(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<3>  |   15.395(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<4>  |   15.973(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<5>  |   15.397(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<6>  |   15.387(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<7>  |   15.473(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<8>  |   15.531(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<9>  |   15.356(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<10> |   15.407(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<11> |   15.440(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<12> |   15.390(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<13> |   15.369(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<14> |   15.369(F)|U6/ABUS_or0000           |   0.000|
+ABUS_out<15> |   15.530(F)|U6/ABUS_or0000           |   0.000|
+DBUS<0>      |   18.269(F)|U6/Mtrien_DBUS<0>_not0001|   0.000|
+DBUS<1>      |   17.209(F)|U6/Mtrien_DBUS<0>_not0001|   0.000|
+DBUS<2>      |   17.885(F)|U6/Mtrien_DBUS<0>_not0001|   0.000|
+DBUS<3>      |   17.625(F)|U6/Mtrien_DBUS<0>_not0001|   0.000|
+DBUS<4>      |   17.310(F)|U6/Mtrien_DBUS<0>_not0001|   0.000|
+DBUS<5>      |   18.272(F)|U6/Mtrien_DBUS<0>_not0001|   0.000|
+DBUS<6>      |   17.664(F)|U6/Mtrien_DBUS<0>_not0001|   0.000|
+DBUS<7>      |   17.794(F)|U6/Mtrien_DBUS<0>_not0001|   0.000|
+IOAD<0>      |   16.859(R)|IR_read                  |   0.000|
+IOAD<1>      |   16.652(R)|IR_read                  |   0.000|
+IOAD_out<0>  |   17.010(R)|IR_read                  |   0.000|
+IOAD_out<1>  |   17.217(R)|IR_read                  |   0.000|
+IODB<0>      |   20.021(R)|IR_read                  |   0.000|
+             |   19.871(F)|U6/Mtrien_IODB_not0001   |   0.000|
+IODB<1>      |   18.810(R)|IR_read                  |   0.000|
+             |   18.702(F)|U6/Mtrien_IODB_not0001   |   0.000|
+IODB<2>      |   19.355(R)|IR_read                  |   0.000|
+             |   19.539(F)|U6/Mtrien_IODB_not0001   |   0.000|
+IODB<3>      |   19.011(R)|IR_read                  |   0.000|
+             |   18.594(F)|U6/Mtrien_IODB_not0001   |   0.000|
+IODB<4>      |   18.990(R)|IR_read                  |   0.000|
+             |   18.086(F)|U6/Mtrien_IODB_not0001   |   0.000|
+IODB<5>      |   19.341(R)|IR_read                  |   0.000|
+             |   18.952(F)|U6/Mtrien_IODB_not0001   |   0.000|
+IODB<6>      |   18.345(R)|IR_read                  |   0.000|
+             |   18.129(F)|U6/Mtrien_IODB_not0001   |   0.000|
+IODB<7>      |   19.074(R)|IR_read                  |   0.000|
+             |   19.156(F)|U6/Mtrien_IODB_not0001   |   0.000|
+IR_in_out<0> |   14.632(F)|IR_read                  |   0.000|
+IR_in_out<1> |   14.645(F)|IR_read                  |   0.000|
+IR_in_out<2> |   14.650(F)|IR_read                  |   0.000|
+IR_in_out<3> |   14.659(F)|IR_read                  |   0.000|
+IR_in_out<4> |   14.679(F)|IR_read                  |   0.000|
+IR_in_out<5> |   14.671(F)|IR_read                  |   0.000|
+IR_in_out<6> |   14.659(F)|IR_read                  |   0.000|
+IR_in_out<7> |   14.683(F)|IR_read                  |   0.000|
+IR_in_out<8> |   14.661(F)|IR_read                  |   0.000|
+IR_in_out<9> |   14.645(F)|IR_read                  |   0.000|
+IR_in_out<10>|   14.656(F)|IR_read                  |   0.000|
+IR_in_out<11>|   14.655(F)|IR_read                  |   0.000|
+IR_in_out<12>|   14.653(F)|IR_read                  |   0.000|
+IR_in_out<13>|   14.671(F)|IR_read                  |   0.000|
+IR_in_out<14>|   14.652(F)|IR_read                  |   0.000|
+IR_in_out<15>|   14.661(F)|IR_read                  |   0.000|
+nBHE         |   13.546(F)|U6/nBHE_not0001          |   0.000|
+nBHE_out     |   14.101(F)|U6/nBHE_not0001          |   0.000|
+nBLE         |   13.207(F)|U6/nBHE_not0001          |   0.000|
+nBLE_out     |   13.788(F)|U6/nBHE_not0001          |   0.000|
+nMREQ        |   13.125(F)|U6/nBHE_not0001          |   0.000|
+nMREQ_out    |   13.207(F)|U6/nBHE_not0001          |   0.000|
+nPRD         |   16.385(R)|IR_read                  |   0.000|
+nPRD_out     |   16.658(R)|IR_read                  |   0.000|
+nPREQ        |   17.540(R)|IR_read                  |   0.000|
+nPREQ_out    |   16.357(R)|IR_read                  |   0.000|
+nPWR         |   16.514(R)|IR_read                  |   0.000|
+nPWR_out     |   17.092(R)|IR_read                  |   0.000|
+nRD          |   13.561(F)|U6/nBHE_not0001          |   0.000|
+nRD_out      |   13.561(F)|U6/nBHE_not0001          |   0.000|
+nWR          |   13.125(F)|U6/nBHE_not0001          |   0.000|
+nWR_out      |   13.126(F)|U6/nBHE_not0001          |   0.000|
+-------------+------------+-------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.790|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock rst
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   12.473|         |   13.567|         |
+rst            |    5.745|    6.358|    7.847|    7.847|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DBUS<0>        |DBUS_out<0>    |    9.760|
+DBUS<1>        |DBUS_out<1>    |    5.074|
+DBUS<2>        |DBUS_out<2>    |    6.939|
+DBUS<3>        |DBUS_out<3>    |    5.933|
+DBUS<4>        |DBUS_out<4>    |    9.319|
+DBUS<5>        |DBUS_out<5>    |    4.795|
+DBUS<6>        |DBUS_out<6>    |    5.938|
+DBUS<7>        |DBUS_out<7>    |    8.706|
+DBUS<8>        |DBUS_out<8>    |    9.565|
+DBUS<9>        |DBUS_out<9>    |    7.206|
+DBUS<10>       |DBUS_out<10>   |    7.271|
+DBUS<11>       |DBUS_out<11>   |    7.681|
+DBUS<12>       |DBUS_out<12>   |    7.870|
+DBUS<13>       |DBUS_out<13>   |    4.827|
+DBUS<14>       |DBUS_out<14>   |    6.269|
+DBUS<15>       |DBUS_out<15>   |    7.984|
+IODB<0>        |IODB_out<0>    |    5.300|
+IODB<1>        |IODB_out<1>    |    4.815|
+IODB<2>        |IODB_out<2>    |    5.102|
+IODB<3>        |IODB_out<3>    |    4.803|
+IODB<4>        |IODB_out<4>    |    5.077|
+IODB<5>        |IODB_out<5>    |    5.187|
+IODB<6>        |IODB_out<6>    |    5.378|
+IODB<7>        |IODB_out<7>    |    4.795|
+k0<0>          |IODB<0>        |   10.653|
+k0<1>          |IODB<1>        |    9.044|
+k0<2>          |IODB<2>        |    9.886|
+k0<3>          |IODB<3>        |    9.280|
+k0<4>          |IODB<4>        |    8.924|
+k0<5>          |IODB<5>        |    9.551|
+k0<6>          |IODB<6>        |    8.815|
+k0<7>          |IODB<7>        |    9.347|
+rst            |IODB<0>        |   15.409|
+rst            |IODB<1>        |   14.234|
+rst            |IODB<2>        |   15.071|
+rst            |IODB<3>        |   14.126|
+rst            |IODB<4>        |   13.618|
+rst            |IODB<5>        |   14.484|
+rst            |IODB<6>        |   13.785|
+rst            |IODB<7>        |   14.688|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Jul 25 13:15:38 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 195 MB
+
+
+
