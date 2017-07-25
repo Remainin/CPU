@@ -1,0 +1,163 @@
+NET "data(0)" LOC="p167";
+NET "data(1)" LOC="p165";
+NET "data(2)" LOC="p164";
+NET "data(3)" LOC="p163";
+NET "data(4)" LOC="p162";
+NET "data(5)" LOC="p161";
+NET "data(6)" LOC="p160";
+NET "data(7)" LOC="p153";
+
+NET "data(8)" LOC="p120";
+NET "data(9)" LOC="p122";
+NET "data(10)" LOC="p123";
+NET "data(11)" LOC="p128";
+NET "data(12)" LOC="p132";
+NET "data(13)" LOC="p133";
+NET "data(14)" LOC="p134";
+NET "data(15)" LOC="p135";
+
+NET "addrm(0)" LOC="p179";
+NET "addrm(1)" LOC="p178";
+NET "addrm(2)" LOC="p177";
+NET "addrm(3)" LOC="p172";
+NET "addrm(4)" LOC="p171";
+NET "addrm(5)" LOC="p151";
+NET "addrm(6)" LOC="p150";
+NET "addrm(7)" LOC="p147";
+
+NET "addrm(8)" LOC="p146";
+NET "addrm(9)" LOC="p113";
+NET "addrm(10)" LOC="p115";
+NET "addrm(11)" LOC="p116";
+NET "addrm(12)" LOC="p119";
+NET "addrm(13)" LOC="p140";
+NET "addrm(14)" LOC="p144";
+NET "addrm(15)" LOC="p145";
+
+NET "csm" LOC="p168";
+NET "wrm" LOC="p152";
+NET "rdm" LOC="p139";
+NET "bhm" LOC="p138";
+NET "blm" LOC="p137";
+NET "clk" LOC="p75";
+
+
+net "k0<0>" loc="p154";
+net "k0<1>" loc="p148";
+net "k0<2>" loc="p142";
+net "k0<3>" loc="p136";
+net "k0<4>" loc="p130";
+net "k0<5>" loc="p124";
+net "k0<6>" loc="p118";
+net "k0<7>" loc="p110";
+
+net "k1<0>" loc="p174";
+net "k1<1>" loc="p204";
+net "k1<2>" loc="p194";
+net "k1<3>" loc="p175";
+net "k1<4>" loc="p169";
+net "k1<5>" loc="p101";
+net "k1<6>" loc="p97";
+net "k1<7>" loc="p96";
+
+net "k2<0>" loc="p94";
+net "k2<1>" loc="p93";
+net "k2<2>" loc="p91";
+net "k2<3>" loc="p90";
+net "k2<4>" loc="p89";
+net "k2<5>" loc="p87";
+net "k2<6>" loc="p80";
+net "k2<7>" loc="p78";
+
+net "k3<0>" loc="p72";
+net "k3<1>" loc="p71";
+net "k3<2>" loc="p69";
+net "k3<3>" loc="p68";
+net "k3<4>" loc="p65";
+net "k3<5>" loc="p64";
+net "k3<6>" loc="p58";
+net "k3<7>" loc="p57";
+
+net "k4<0>" loc="p54";
+net "k4<1>" loc="p6";
+net "k4<2>" loc="p14";
+net "k4<3>" loc="p20";
+net "k4<4>" loc="p26";
+net "k4<5>" loc="p32";
+net "k4<6>" loc="p43";
+net "k4<7>" loc="p51";
+
+net "s0<0>" loc="p4";
+net "s0<1>" loc="p5";
+net "s0<2>" loc="p8";
+net "s0<3>" loc="p9";
+net "s0<4>" loc="p11";
+net "s0<5>" loc="p12";
+net "s0<6>" loc="p15";
+net "s0<7>" loc="p16";
+
+net "s1<0>" loc="p18";
+net "s1<1>" loc="p19";
+net "s1<2>" loc="p22";
+net "s1<3>" loc="p23";
+net "s1<4>" loc="p24";
+net "s1<5>" loc="p25";
+net "s1<6>" loc="p28";
+net "s1<7>" loc="p29";
+
+net "s2<0>" loc="p31";
+net "s2<1>" loc="p33";
+net "s2<2>" loc="p34";
+net "s2<3>" loc="p35";
+net "s2<4>" loc="p36";
+net "s2<5>" loc="p39";
+net "s2<6>" loc="p40";
+net "s2<7>" loc="p41";
+
+net "s3<0>" loc="p42";
+net "s3<1>" loc="p45";
+net "s3<2>" loc="p47";
+net "s3<3>" loc="p48";
+net "s3<4>" loc="p49";
+net "s3<5>" loc="p50";
+net "s3<6>" loc="p55";
+net "s3<7>" loc="p56";
+
+net "s4<0>" loc="p60";
+net "s4<1>" loc="p61";
+net "s4<2>" loc="p62";
+net "s4<3>" loc="p63";
+net "s4<4>" loc="p2";
+net "s4<5>" loc="p108";
+net "s4<6>" loc="p109";
+net "s4<7>" loc="p112";
+
+net "s5<0>" loc="p126";
+net "s5<1>" loc="p127";
+net "s5<2>" loc="p129";
+net "s5<3>" loc="p202";
+net "s5<4>" loc="p203";
+net "s5<5>" loc="p205";
+net "s5<6>" loc="p206";
+net "s5<7>" loc="p103";
+
+
+net "a<0>" loc="p102";
+net "a<1>" loc="p100";
+net "a<2>" loc="p99";
+net "a<3>" loc="p98";
+net "a<4>" loc="p83";
+net "a<5>" loc="p82";
+net "a<6>" loc="p77";
+net "a<7>" loc="p185";
+
+net "b<0>" loc="p196";
+net "b<1>" loc="p193";
+net "b<2>" loc="p192";
+net "b<3>" loc="p190";
+net "b<4>" loc="p3";
+net "b<5>" loc="p200";
+net "b<6>" loc="p199";
+net "b<7>" loc="p197";
+
+   NET "k4<7>" CLOCK_DEDICATED_ROUTE = FALSE;
